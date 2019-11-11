@@ -1,11 +1,15 @@
 {
-  "name": "recaptchav2_node",
+  "name": "reCATPCHAV2_node",
   "version": "1.0.0",
-  "description": "A Node.js client-server implementation of Google's reCATCHA V2",
-  "main": "index.js",
+  "description": "A node.js client-server implementation of Google's reCAPTCHA V2",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server"
   },
   "author": "Meshack alias Geezer",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "node-fetch": "^2.6.0"
+  }
 }
