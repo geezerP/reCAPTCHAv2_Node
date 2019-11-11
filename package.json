@@ -1,0 +1,11 @@
+{
+  "name": "recaptchav2_node",
+  "version": "1.0.0",
+  "description": "A Node.js client-server implementation of Google's reCATCHA V2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Meshack alias Geezer",
+  "license": "ISC"
+}
